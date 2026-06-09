@@ -81,7 +81,7 @@
         <!-- メインゲーム画面 -->
         <div id="game-screen" class="hidden flex flex-col gap-4">
             
-            <!-- ワンちゃんのお部屋表示エリア (お部屋を大きく拡張) -->
+            <!-- ワンちゃんのお部屋表示エリア -->
             <div class="bg-white/90 rounded-2xl p-4 shadow-md border-2 border-orange-200">
                 <!-- 進行状況 -->
                 <div class="flex justify-between items-center text-sm font-bold text-gray-700 mb-2">
@@ -89,7 +89,7 @@
                     <span id="score-display" class="text-orange-600 font-bold">ゲットした家具: 0こ</span>
                 </div>
                 
-                <!-- お部屋グラフィック (高さをh-64へ拡張、家具サイズをtext-6xl〜text-7xlに巨大化) -->
+                <!-- お部屋グラフィック -->
                 <div class="relative w-full h-64 bg-amber-50 rounded-xl border-2 border-amber-300 overflow-hidden shadow-inner flex items-end justify-center pb-2">
                     <!-- 壁と床のグラデーション境界 -->
                     <div class="absolute inset-x-0 bottom-0 h-1/4 bg-orange-100 border-t-2 border-orange-200"></div>
@@ -121,7 +121,7 @@
 
                     <!-- 主役のワンちゃん -->
                     <div id="dog-container" class="relative z-10 flex flex-col items-center mb-1">
-                        <!-- 吹き出しヒント (やりなおしタイム等で表示) -->
+                        <!-- 吹き出しヒント -->
                         <div id="dog-balloon" class="absolute bottom-20 bg-white border-2 border-orange-400 text-gray-800 text-xs rounded-xl p-2.5 shadow-md w-44 text-center hidden after:content-[''] after:absolute after:top-full after:left-1/2 after:-ml-2 after:border-8 after:border-transparent after:border-t-white before:content-[''] before:absolute before:top-full before:left-1/2 before:-ml-2.5 before:border-[10px] before:border-transparent before:border-t-orange-400">
                             <span id="balloon-text">まずは 〇＋〇をしよう！</span>
                         </div>
